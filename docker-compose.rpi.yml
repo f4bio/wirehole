@@ -38,8 +38,8 @@ services:
       - PGID=1000
       - TZ=Europe/Berlin
       - SERVERPORT=51820
-      #- SERVERURL=my.ddns.net #optional - For use with DDNS (Uncomment to use)
-      - PEERS=1 # How many peers to generate for you (clients)
+      - SERVERURL=m0s46.home.kg #optional - For use with DDNS (Uncomment to use)
+      - PEERS=10 # How many peers to generate for you (clients)
       - PEERDNS=10.2.0.100 # Set it to point to pihole
       - INTERNAL_SUBNET=10.6.0.0
     volumes:
